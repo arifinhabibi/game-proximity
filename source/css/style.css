@@ -1,0 +1,91 @@
+body {
+    background-color: black;
+    user-select: none;
+}
+
+.display-game {
+    position: absolute;
+    width: 1000px;
+    height: 600px;
+    background-color: #fff;
+    margin: auto;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.game {
+    width: 600px;
+    height: 500px;
+    background-color: rgb(255, 255, 64);
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.honeys {
+    display: flex;
+}
+/* .honeys-row-2 {
+    display: flex;
+    transform: translate(45px, -25px);
+}
+.honeys-row-3 {
+    display: flex;
+    transform: translateY(-50px);
+}
+.honeys-row-4 {
+    display: flex;
+    transform: translate(45px, -75px);
+}
+.honeys-row-5 {
+    display: flex;
+    transform: translateY(-100px);
+}
+.honeys-row-6 {
+    display: flex;
+    transform: translate(45px, -125px);
+} */
+.honey {
+    width: 100px;
+    height: 100px;
+    margin: 1px;
+}
+
+/* 
+.honeys {
+    display: flex;
+    width: 600px;
+
+}
+.honey-user {
+	width: 100px;
+	height: 55px;
+	background: #0284cf;
+	position: relative;
+}
+.honey-user:before {
+    content: "";
+	position: absolute;
+	top: -25px; 
+	left: 0;
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 25px solid #0284cf;
+}
+.honey-user:after {
+	content: "";
+	position: absolute;
+	bottom: -25px; 
+	left: 0;
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-top: 25px solid #0284cf;
+} */
