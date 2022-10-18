@@ -22,15 +22,15 @@ body {
     position: absolute;
     margin: auto;
     top: 0;
-    right: 0;
-    left: 0;
+    right: 15%;
+    /* left: 0; */
 }
 .turn {
     position: absolute;
     bottom: 0;
     margin: auto;
-    right: 0;
-    left: 0;
+    right: 40%;
+    /* left: 0; */
     background-image: url('../img/blue.png');
     background-size: contain;
     background-repeat: no-repeat;
@@ -45,24 +45,42 @@ body {
 .honeys {
     display: flex;
 }
+.cell {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    color: #fff;
+}
+
+.number {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+}
 
 .honey {
     width: 100px;
     height: 100px;
     margin: 1px;
-    color: #fff;
 }
-p {
-    z-index: 99;
-    position: absolute;
+
+.scores {
+    background-color: rgb(190, 190, 190);
+    height: 140px;
+    width: 200px;
+}
+.player {
     color: #fff;
-    margin: auto;
-    height: 100px;
-    width: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin-left: 10px;
     font-size: 30px;
-    left: 148px;
-    top: 230px;
+    padding-top: 20px;
+}
+.bot {
+    margin-left: 10px;
+    color: #fff;
+    font-size: 30px;
+    padding-top: 20px;
 }
