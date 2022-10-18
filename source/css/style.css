@@ -17,75 +17,52 @@ body {
 
 .game {
     width: 600px;
-    height: 500px;
+    height: 490px;
     background-color: rgb(255, 255, 64);
     position: absolute;
     margin: auto;
     top: 0;
     right: 0;
-    bottom: 0;
     left: 0;
 }
+.turn {
+    position: absolute;
+    bottom: 0;
+    margin: auto;
+    right: 0;
+    left: 0;
+    background-image: url('../img/blue.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: #fff;
+    display: flex;
+    font-size: 24px;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 100px;
+} 
 .honeys {
     display: flex;
 }
-/* .honeys-row-2 {
-    display: flex;
-    transform: translate(45px, -25px);
-}
-.honeys-row-3 {
-    display: flex;
-    transform: translateY(-50px);
-}
-.honeys-row-4 {
-    display: flex;
-    transform: translate(45px, -75px);
-}
-.honeys-row-5 {
-    display: flex;
-    transform: translateY(-100px);
-}
-.honeys-row-6 {
-    display: flex;
-    transform: translate(45px, -125px);
-} */
+
 .honey {
     width: 100px;
     height: 100px;
     margin: 1px;
+    color: #fff;
 }
-
-/* 
-.honeys {
+p {
+    z-index: 99;
+    position: absolute;
+    color: #fff;
+    margin: auto;
+    height: 100px;
+    width: 100px;
     display: flex;
-    width: 600px;
-
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    left: 148px;
+    top: 230px;
 }
-.honey-user {
-	width: 100px;
-	height: 55px;
-	background: #0284cf;
-	position: relative;
-}
-.honey-user:before {
-    content: "";
-	position: absolute;
-	top: -25px; 
-	left: 0;
-	width: 0;
-	height: 0;
-	border-left: 50px solid transparent;
-	border-right: 50px solid transparent;
-	border-bottom: 25px solid #0284cf;
-}
-.honey-user:after {
-	content: "";
-	position: absolute;
-	bottom: -25px; 
-	left: 0;
-	width: 0;
-	height: 0;
-	border-left: 50px solid transparent;
-	border-right: 50px solid transparent;
-	border-top: 25px solid #0284cf;
-} */
